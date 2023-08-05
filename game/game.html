@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="game.css">
+    </head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <nav role="navigation">
+        <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <a href="../index.html"><li>Home</li></a>
+            <a href="../account page/account.html"><li>Account</li></a>
+            <a href="../course/course.html"><li>course</li></a>
+            <a href="../about us/about-us.html"><li>About Us</li></a>
+            <a href="#" id="logout"><li>Logout</li></a>
+        </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <h1>Play you course</h1>
+        <hr>
+        <h2>Question :</h2>
+        <h3 id="question">what is the real name of javascript ?</h3>
+        <div class="reponse-container">
+            <div id="reponse1">
+                <input type="radio" name="reponse" id="r1">
+                <p id="reponseTxt1">ahlaa</p>
+            </div>
+            <div id="reponse2">
+                <input type="radio" name="reponse" id="r2">
+                <p id="reponseTxt2">lala</p>
+            </div>
+            <div id="reponse3">
+                <input type="radio" name="reponse" id="r3">
+                <p id="reponseTxt3">helouuu</p>
+            </div>
+            <div id="reponse4">
+                <input type="radio" name="reponse" id="r4">
+                <p id="reponseTxt4">no wayyy</p>
+            </div>
+        </div>
+        <button id="reponse-sub">SUBMIT</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

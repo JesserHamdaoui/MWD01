@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre compte</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <nav role="navigation">
+        <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <a href="../index.html"><li>Home</li></a>
+            <a href="account.html"><li>Account</li></a>
+            <a href="../course/course.html"><li>course</li></a>
+            <a href="../about us/about-us.html"><li>About Us</li></a>
+            <a href="#" target="_blank" id="logout"><li>Logout</li></a>
+        </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <h1>Your account</h1>
+        <img src="../images/avatar.png" alt="avatar" id="avatar">
+        <table>
+            <tr>
+                <td><p>name :</p></td>
+                <td><span id="name">NAME</span></td>
+            </tr>
+            <tr>
+                <td><p>lastname :</p></td>
+                <td><span id="lastname">LASTNAME</span></td>
+            </tr>
+            <tr>
+                <td><p>email : </p></td>
+                <td><span id="email">@@@@</span></td>
+            </tr>
+            <tr>
+                <td><p>age : </p></td>
+                <td><span id="age">11111</span></td>
+            </tr>
+            <tr>
+                <td><p>class : </p></td>
+                <td><span id="class">3blabla123</span></td>
+            </tr>
+        </table>
+            <p class="score"><span>score : </span><span id="score">SCORE</span></p>
+        
+        <p id="logout">Logout</p>
+    </div>
+    <script src="account.js"></script>
+</body>
+</html>

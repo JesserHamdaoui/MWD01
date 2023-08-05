@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="course.css">
+    </head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <nav role="navigation">
+        <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <a href="../index.html"><li>Home</li></a>
+            <a href="../account page/account.html"><li>Account</li></a>
+            <a href="course.html"><li>course</li></a>
+            <a href="../about us/about-us.html"><li>About Us</li></a>
+            <a href="#" id="logout"><li>Logout</li></a>
+        </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <h1>Course</h1>
+        <h2>. Les variables</h2>
+        <h3>.1. La déclaration des variables</h3>
+        <p>Les variables peuvent se déclarer de deux façons :</p>
+        <ul>
+            <li>Façon explicite : en utilisant la commande « VAR »
+                <br/>Exemple : VAR Numero =1 VAR Prenom= "Yassine"</li>
+            <li>Façon implicite : Décrire directement le nom de la variable suivi de la valeur attribuée :
+                <br/>Exemple : Numero = 1 </li>
+        </ul>
+        <br>
+        <h3>.2. La visibilité des variables</h3>
+        <ul>
+            <li>Les variables déclarées (de façon explicite ou implicite) au début du script, en dehors et avanttoutes fonctions, sont des variables globales</li>
+            <li>
+                Dans une fonction :
+                <ul>
+                    <li>Une variable déclarée par le mot clé Var est locale à cette fonction</li>
+                    <li>Une variable déclarée sans le mot clé Var, sa portée sera globale.</li>
+                </ul>
+            </li>
+            <li>
+                JavaScript utilise 4 types de données :
+                <ul>
+                    <li>Des nombres (entier et réel)</li>
+                    <li>Des chaînes de caractères</li>
+                    <li>Des booléens : (True pour vrai et False pour faux)</li>
+                    <li>Le mot null : Mot spécial qui indique l'absence d'une valeur</li>
+                </ul>
+                Il ne faut pas déclarer le type de données d'une variable
+            </li>
+        </ul>
+        <br>
+        <h3>.3.Les Entrées/Sorties en JavaScript</h3>
+        <p>L'entrée (lecture) : est faisable avec la méthode « prompt » de l'objet « window » ou à l'aide d'objets graphiques du formulaire HTML</p>
+        <p>La sortie : est possible en utilisant la méthode « write » de l'objet « document », la méthode « alert » de d'objet « window » ou à l'aide d'objets graphique du formulaire HTML. </p>
+        <a href="../course/course.html" id="last">&#60</a>
+        <a href="../course 3/course.html" id="next">&#62</a>
+    </div>
+    <script src="course.js"></script>
+</body>
+</html>

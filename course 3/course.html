@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="course.css">
+    </head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <nav role="navigation">
+        <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <a href="../index.html"><li>Home</li></a>
+            <a href="../account page/account.html"><li>Account</li></a>
+            <a href="course.html"><li>course</li></a>
+            <a href="../about us/about-us.html"><li>About Us</li></a>
+            <a href="#" id="logout"><li>Logout</li></a>
+        </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <h1>Course</h1>
+        <hr>
+        <h2>1/ Déclaration des fonctions</h2>
+        <p>La mention des arguments est facultative mais dans ce cas les parenthèses doivent rester. C'est
+             d'ailleurs grâce à ces parenthèses que l'interpréteur Javascript distingue les variables des fonctions.
+             C'est lors de l'appel de la fonction que le code de programme est exécuté.
+        </p>
+        <br>
+        <h2>2/ L'appel d'une fonction </h2>
+        <p>L'appel d'une fonction se fait par le nom de la fonction (avec les parenthèses).</p>
+        <p>Soit par exemple nom_de_la_fonction()</p>
+        <p>La fonction doit etre définie avant d'être appelée.Il est donc prudent de placer toutes les
+             déclarations de fonctions dans la dans la balise &#60HEAD&#62 ... &#60HEAD&#62.
+        </p>
+        <br>
+        <h2>3/ La visibilité des variables</h2>
+        <ul>
+            <li>Les variables déclarées (de façon explicite ou implicite) au début du script, en dehors et avant
+                 toutes fonctions, sont des variables globales</li>
+            <li>
+                Dans une fonction
+                <ul>
+                    <li>Une variable déclarée par le mot clé Var est locale à cette fonction</li>
+                    <li>Une variable déclarée sans le mot clé Var, sa portée sera globale.</li>
+                </ul>
+            </li>
+            <li>
+                JavaScript utilise 4 types de données :
+                <ul>
+                    <li>Des nombres (entier et réel)</li>
+                    <li>Des chaînes de caractères</li>
+                    <li>Des booléens : (True pour vrai et False pour faux)</li>
+                    <li>mot null : Mot spécial qui indique l'absence d'une valeur.</li>
+                </ul>
+                Il ne faut pas déclarer le type de données d'une variable.
+            </li>
+        </ul>
+        <a href="../course 2/course.html" id="last">&#60</a>
+        <a href="../course 4/course.html" id="next">&#62</a>
+    </div>
+    <script src="course.js"></script>
+</body>
+</html>

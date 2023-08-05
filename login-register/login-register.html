@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Register</title>
+    <link rel="stylesheet" href="login-register.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <nav role="navigation">
+        <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <a href="../index.html"><li>Home</li></a>
+            <a href="account page/account.html"><li>Account</li></a>
+            <a href="../course/course.html"><li>course</li></a>
+            <a href="../about us/about-us.html"><li>About Us</li></a>
+            <a href="#" id="logout"><li>Logout</li></a>
+        </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="register-login">
+            <div class="switcher">
+                <p id="register-switch">Register</p>
+                <p id="login-switch" class="active-switch">Login</p>
+            </div>
+            <div class="inner-register-login">
+                <div class="register-container">
+                    <h2>Register form</h2>
+                    <input type="text" name="name" id="name" placeholder="name">
+                    <input type="text" name="last_name" id="last-name" placeholder="last_name">
+                    <input type="email" name="email" id="email" placeholder="email">
+                    <input type="number" name="age" id="age" placeholder="age">
+                    <select name="class" id="class">
+                        <option value="" selected id="first-child">Votre class</option>
+                        <optgroup label="3éme informatique">
+                            <option value="3info1">3info1</option>
+                        </optgroup>
+                        <optgroup label="3éme sience">
+                            <option value="3sience1">3sience1</option>
+                            <option value="3sience2">3sience2</option>
+                        </optgroup>
+                        <optgroup label="3éme math">
+                            <option value="3math1">3math1</option>
+                        </optgroup>
+                        <optgroup label="3éme lettre">
+                            <option value="3lettre1">3lettre1</option>
+                        </optgroup>
+                        <optgroup label="3éme economie">
+                            <option value="3eco1">3eco1</option>
+                            <option value="3eco2">3eco2</option>
+                            <option value="3eco3">3eco3</option>
+                        </optgroup>
+                    </select>
+                    <input type="password" name="password" id="password" placeholder="password">
+                    <input type="password" name="repeat_password" id="repeat-password" placeholder="repeat_password">
+                    <br/>
+                    <button id="register-btn">REGISTER</button>
+                    <br/>
+                    <p id="error-msg"></p>
+                </div>
+                <br/>
+                <div class="login-container">
+                    <h2>Login form</h2>
+                    <label for="eamil-log">email</label>
+                    <input type="text" name="email" id="email-log">
+                    <label for="password-log">password</label>
+                    <input type="password" name="password" id="password-log">
+                    <br/>
+                    <button id="login-btn">LOGIN</button>
+                    <br/>
+                    <p id="error-msg-log"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login-register.js"></script>
+</body>
+</html>
